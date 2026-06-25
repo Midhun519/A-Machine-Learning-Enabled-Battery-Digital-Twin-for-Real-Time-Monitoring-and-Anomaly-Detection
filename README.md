@@ -159,8 +159,8 @@ The developed system successfully:
 <img width="1316" height="1029" alt="WhatsApp Image 2026-06-25 at 9 29 28 PM" src="https://github.com/user-attachments/assets/dac999f1-f2e1-47eb-a24a-59218546db14" />
 
 ### Digital Twin Dashboard
+<img width="1600" height="794" alt="WhatsApp Image 2026-06-25 at 10 32 22 PM" src="https://github.com/user-attachments/assets/d58effa3-172a-418b-bbcc-ce6038e71359" />
 
-<img width="1316" height="1029" alt="WhatsApp Image 2026-06-25 at 9 29 28 PM" src="https://github.com/user-attachments/assets/0c8b9ea7-854d-4fa6-a4cb-a26ab2a1cf9e" />
 <img width="1600" height="768" alt="WhatsApp Image 2026-06-25 at 10 33 15 PM" src="https://github.com/user-attachments/assets/2f3b0598-7c99-4936-bd6f-d54cb2439318" />
 
 
