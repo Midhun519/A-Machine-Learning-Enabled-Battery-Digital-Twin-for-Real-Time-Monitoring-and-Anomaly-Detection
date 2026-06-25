@@ -1,0 +1,2 @@
+# A-Machine-Learning-Enabled-Battery-Digital-Twin-for-Real-Time-Monitoring-and-Anomaly-Detection
+Machine Learning Enabled Battery Digital Twin for real-time monitoring, diagnostics, and anomaly detection of lithium-ion batteries. The system integrates ESP 32-based sensing, live data acquisition, machine learning analytics, and a web dashboard to create a virtual representation of battery behavior and detect abnormal operating conditions.
