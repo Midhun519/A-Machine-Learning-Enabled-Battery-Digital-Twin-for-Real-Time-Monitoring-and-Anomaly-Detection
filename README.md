@@ -156,20 +156,13 @@ The developed system successfully:
 ## Screenshots
 
 ### Hardware Setup
-
-Add your hardware image:
-
-```text
-images/hardware_setup.jpg
-```
+<img width="1316" height="1029" alt="WhatsApp Image 2026-06-25 at 9 29 28 PM" src="https://github.com/user-attachments/assets/dac999f1-f2e1-47eb-a24a-59218546db14" />
 
 ### Digital Twin Dashboard
 
-Add your dashboard screenshot:
+<img width="1316" height="1029" alt="WhatsApp Image 2026-06-25 at 9 29 28 PM" src="https://github.com/user-attachments/assets/0c8b9ea7-854d-4fa6-a4cb-a26ab2a1cf9e" />
+<img width="1600" height="768" alt="WhatsApp Image 2026-06-25 at 10 33 15 PM" src="https://github.com/user-attachments/assets/2f3b0598-7c99-4936-bd6f-d54cb2439318" />
 
-```text
-images/dashboard.png
-```
 
 ### System Architecture
 
