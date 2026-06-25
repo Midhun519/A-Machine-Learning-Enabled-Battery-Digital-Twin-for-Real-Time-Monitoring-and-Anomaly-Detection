@@ -165,12 +165,7 @@ The developed system successfully:
 
 
 ### System Architecture
-
-Add your architecture diagram:
-
-```text
-images/architecture.png
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/db197d92-859d-48d4-a35e-77043fc9a506" />
 
 ---
 
