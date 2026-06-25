@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Digital Twin</title>
+
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #0b1220;
+            color: white;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            padding: 20px;
+            margin: 10px;
+            background: #1c2436;
+            border-radius: 12px;
+            width: 180px;
+        }
+
+        .status {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .normal { color: #00ff88; }
+        .anomaly { color: #ff3b3b; }
+    </style>
+</head>
+
+<body>
+
+<h1>🔋 Battery Digital Twin</h1>
+
+<div class="card">
+    <h3>Voltage</h3>
+    <div id="voltage">0</div>
+</div>
+
+<div class="card">
+    <h3>Temperature</h3>
+    <div id="temp">0</div>
+</div>
+
+<div class="card">
+    <h3>Current</h3>
+    <div id="current">0</div>
+</div>
+
+<div class="status" id="status">WAITING...</div>
+
+<script>
+    var socket = io();
+
+    socket.on("update", function(data) {
+        document.getElementById("voltage").innerHTML = data.voltage.toFixed(3);
+        document.getElementById("temp").innerHTML = data.temperature.toFixed(2);
+        document.getElementById("current").innerHTML = data.current.toFixed(3);
+
+        let status = document.getElementById("status");
+        status.innerHTML = data.status;
+
+        if (data.status === "NORMAL") {
+            status.className = "status normal";
+        } else {
+            status.className = "status anomaly";
+        }
+    });
+</script>
+
+</body>
+</html>
